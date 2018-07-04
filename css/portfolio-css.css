@@ -1,0 +1,16 @@
+body, html {
+    margin: 0 auto;
+    background-color: #6da896;
+
+}
+
+.soon {
+    padding: 15px;
+    position: center;
+    margin: 3em;
+    font-family: cursive;
+    font-style: italic;
+    color: #faf1e8;
+    font-size: 85px;
+    text-align: center;
+}
