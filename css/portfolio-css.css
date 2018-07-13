@@ -5,12 +5,43 @@ body, html {
 }
 
 .soon {
-    padding: 15px;
-    position: center;
-    margin: 3em;
+    /*padding: 15px;*/
+    /*position: center;*/
+    /*margin: 3em;*/        /*too much space taken up by center text. DELETE*/
     font-family: cursive;
     font-style: italic;
     color: #faf1e8;
     font-size: 85px;
     text-align: center;
+}
+
+ul {
+    list-style-type: none; /*takes away li bullets*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*will cut content too big for ul*/
+    background-color: rgba(65, 21, 38, 0.55);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    padding-right: 25px; /*gives space between links*/
+
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none; /*takes away underline on links*/
+}
+
+li a:hover {
+    background-color: #6e5e72; /*change navbar bgcolor.W.hovered*/
 }
